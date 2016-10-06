@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<style>
+		@font-face {
+			font-family: 'robotoregular';
+			src: url('roboto/Roboto-Regular-webfont.eot');
+			src: url('roboto/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+				 url('roboto/Roboto-Regular-webfont.woff') format('woff'),
+				 url('roboto/Roboto-Regular-webfont.ttf') format('truetype'),
+				 url('roboto/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		
+		canvas{border:1px solid gray; z-index: 0;}
+		#audioControls{ display:none;}
+		#timer{
+			font-size: 24pt;
+			position: absolute;
+			top: 10px;
+			left: 620px;
+			z-index:1;
+		}
+		
+		body{font-family: robotoregular, Arial, sans-serif;}
+		
+		
+
+	</style>
+	<title>Flower Garden Deluxe</title>
+</head>
+<body>
+	<canvas>
+		Get a real browser!
+	</canvas>
+	<div id='timer'>02:00</div>
+	<script src='js/newMain.js'></script>
+	<script src='js/loader.js'></script>
+	<script src='js/utilities.js'></script>
+	<script src='js/keys.js'></script>
+	<script src='js/emitter.js'></script>
+	
+	<!--
+	
+	<script src='js/sound.js'></script>
+	<section id="audioControls">
+		<audio id="bgAudio" src="media/background.mp3" controls loop></audio>
+		<audio id="effectAudio" controls></audio>
+	</section>-->
+
+</body>
+</html>	
